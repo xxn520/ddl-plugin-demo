@@ -20,9 +20,9 @@ module.exports = {
       	new webpack.HotModuleReplacementPlugin()
     ],
     devServer: {
-		compress: true,
-		port: 9000,
-		hot: true,
+        compress: true,
+        port: 9000,
+        hot: true,
         publicPath: '/build/'
-	}
+    }
 };
