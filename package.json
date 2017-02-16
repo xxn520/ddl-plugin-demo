@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "buildVendor": "webpack --config webpack.ddl.config.js",
-    "build": "webpack --config webpack.config.js"
+    "dev": "webpack-dev-server"
   },
   "dependencies": {
     "react": "^15.4.2",

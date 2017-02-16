@@ -6,8 +6,9 @@ git clone https://github.com/xxn520/ddl-plugin-demo.git
 cd ddl-plugin-demo
 yarn install
 yarn run buildVendor
-yarn run build
+yarn run dev
 // open index.html in browser
 ```
-### TODOS
-1. 集成 webpack-dev-server
+
+###
+[x] 集成 webpack-dev-server
