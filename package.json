@@ -1,0 +1,21 @@
+{
+  "name": "ddl-plugin-demo",
+  "version": "1.0.0",
+  "description": "webpack ddl plugin react",
+  "main": "index.js",
+  "repository": "https://github.com/xxn520/ddl-plugin-demo.git",
+  "author": "m2mbob",
+  "license": "MIT",
+  "scripts": {
+    "buildVendor": "webpack --config webpack.ddl.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
